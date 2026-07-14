@@ -29,12 +29,12 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: 'InProcess'
       },
     noOfSeats:{
-        type: Sequelize.INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false,
         defaultValue: 1
       },
     totalCost:{
-        type: Sequelize.INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false,
         defaultValue: 0
       }
